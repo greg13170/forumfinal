@@ -1,0 +1,193 @@
+.profil input{ 
+    text-align:center; 
+}
+
+.profil textarea{
+    text-align: center;
+}
+
+.profil a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.msgNotifGreen {
+    text-align: center;
+    vertical-align: middle;
+    color: green;
+    height: 50px;
+    padding-bottom: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.msgNotifRed {
+    text-align: center;
+    vertical-align: middle;
+    color: red;
+    height: 50px;
+    padding-bottom: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mp {
+    text-align: center;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+html {
+  height: 100%;
+  background-color: #E9EBEE;
+}
+
+body {
+    font-family: Verdana, sans-serif; 
+    font-size: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E9EBEE;
+ }
+
+titre {
+ color:azure  ;
+ font-size: 250%; 
+ margin-left: px;
+}
+
+header {
+    
+    
+    background-image: url("../images/header.jpg");
+    margin-top: -4%;
+    height:300px;
+    
+}
+
+
+
+.logo {
+
+    margin-left: 35%;
+    margin-top: 77px;
+    width: 650px;
+    height: 200px;
+    
+}
+.navbar {
+	
+    background-color:#120601;
+    margin-bottom:25px;
+
+	margin-top:-2px;
+}
+
+.navbar-nav li a.nav-link {
+    
+	color:white ;
+	
+}
+
+.dropdown-menu li a {
+	color: black ;
+}
+
+table {
+    width: 60px;
+    height: 20px;
+    
+}
+
+.categorie {
+    border: solid 4px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius:10px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    box-shadow: 10px 5px 5px grey;
+    
+    
+    
+}
+
+.navbarCategorie{
+    background-color:#424242;
+    text-align: center;
+    color:white;
+    border-top-right-radius:7px;
+    border-top-left-radius:7px;
+   
+}
+
+.forum{
+    border-bottom: 2px dotted grey;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+}
+
+
+.categorie h3 {
+    font-family:'Wendy One', sans-serif;
+}
+
+.createtopic a:visited {
+    color: white;
+}
+
+.createtopic a {
+    color: white;
+}
+
+.createtopic {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.body {
+    background-color: #E9EBEE;
+    height: 100%;
+}
+
+.categorie  {
+    background-color: white;
+}
+
+.forum a {
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+    margin-left: -1px;
+    margin-top: 75px;
+    width: 300px;
+    height: 150px;   
+    }
+}
+
+@media screen and (max-width: 800px) {
+.bouton {
+    cursor:pointer;
+    width:90px;
+    height:90px;
+    background:black ;
+    box-shadow:10px 10px px darkp;
+    font:bold 20px Arial;
+    border-radius:50%;
+    color:darkorange;
+    margin-left: 35%;
+    margin-top: 7px;       
+    }
+}
+
